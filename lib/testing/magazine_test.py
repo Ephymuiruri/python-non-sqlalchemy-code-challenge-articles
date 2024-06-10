@@ -186,7 +186,7 @@ class TestMagazine:
         ]
         assert magazine_3.article_titles() is None
 
-    def test_contributing_authors(self):
+    def test_contributing_authors():
         """returns author list who have written more than 2 articles for the magazine"""
         author_1 = Author("Carry Bradshaw")
         author_2 = Author("Nathaniel Hawthorne")
